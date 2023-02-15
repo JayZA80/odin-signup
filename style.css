@@ -1,0 +1,29 @@
+body {
+    background-color: #eee;
+    margin: 0;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+}
+
+.container img {
+    max-height: 100vh;
+}
+
+fieldset {
+    background-color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+}
+
+fieldset section {
+    display: flex;
+}
+
+section div * {
+    display: block;
+}
