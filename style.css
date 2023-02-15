@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
 body {
     background-color: #eee;
     margin: 0;
@@ -10,6 +16,18 @@ body {
 
 .container img {
     max-height: 100vh;
+}
+
+.headline {
+    padding: 1rem 3rem;
+}
+
+.headline h1 {
+    padding: 1rem 0;
+}
+
+.headline h1:last-child {
+    margin-bottom: 1rem;
 }
 
 fieldset {
