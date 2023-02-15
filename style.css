@@ -8,13 +8,22 @@
 }
 
 body {
-    background-color: #eee;
+    background-color: rgb(222, 248, 229);
     color: #222;
     margin: 0;
 }
 
 h1 {
     font-weight: 500;
+}
+
+a {
+    color: rgb(7, 79, 82);
+    font-weight: 500;
+}
+
+.shadowed {
+    box-shadow: 5px 7px 7px rgb(190, 214, 196);
 }
 
 .emphasis {
@@ -48,7 +57,7 @@ h1 {
 }
 
 fieldset {
-    background-color: white;
+    background-color: rgb(235, 252, 240);
     border: none;
     display: flex;
     flex-direction: column;
@@ -81,7 +90,28 @@ label {
 }
 
 input {
+    border: 2px solid rgb(215, 243, 224);
+    border-radius: 5px;
     font-size: 1.2rem;
     padding: 0.2rem 0.4rem;
     width: 19rem;
+}
+
+button {
+    background-color: rgb(7, 79, 82);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 2.2rem 3rem;
+    padding: 0.8rem 3rem;
+}
+
+.logIn {
+    font-size: 1.2rem;
+}
+
+p.logIn {
+    margin-left: 3rem;
 }
